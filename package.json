@@ -1,0 +1,12 @@
+{
+  "name": "raml",
+  "version": "0.0.1",
+  "description": "RAML Package for ATOM",
+  "repository": "https://github.com/DOESNOTEXIST",
+  "license": "WHOKNOWS",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

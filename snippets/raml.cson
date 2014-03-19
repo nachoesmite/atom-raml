@@ -1,0 +1,85 @@
+'.source.raml':
+  'get':
+    'prefix': 'get'
+    'body': """get:
+              	description: |
+              		Retrieve resource
+              	responses:
+              		200:
+              			description: |
+              				Succesfully retrieved resource
+              ${1:}
+            """
+  'delete':
+    'prefix': 'delete'
+    'body': """delete:
+              	description: |
+              		Retrieve resource
+              	responses:
+              		204:
+              			description: |
+              				Succesfully deleted resource
+              ${1:}
+              """
+  'RAML':
+    'prefix': 'RAML'
+    'body': """RAML
+               ---
+               title: title
+               version: version
+               baseUri: https://baseUri/version/
+               ${1:}
+            """
+  'patch':
+    'prefix': 'patch'
+    'body': """patch:
+              	description: |
+              		Create a new resource
+              	body:
+              		application/json: !!null
+              	responses:
+              		204:
+              			description: Succesfully updated resource
+              ${1:}
+            """
+  'post':
+    'prefix': 'post'
+    'body': """post:
+              	description: |
+              		Create a new resource
+              	body:
+              		application/json: !!null
+              	responses:
+              		201:
+              			description: |
+              				Succesfully created a new resource
+              			headers:
+              				Location:
+              					desription: |
+              						Location of the newly created resource
+              					type: string
+              					required: no
+              ${1:}
+            """
+  'put':
+    'prefix': 'put'
+    'body': """put:
+              	description: |
+              		Update an existing resource
+              	body:
+              		application/json:
+              	responses:
+              		204:
+              			description: |
+              				Succesfully updated the resource
+              ${1:}
+            """
+
+  'documentation':
+    'prefix': 'documentation'
+    'body': """documentation:
+              	- title: title
+              		content: |
+              			content
+              ${1:}
+            """
