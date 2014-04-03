@@ -1,6 +1,6 @@
 # ATOM RAML package
 
-A simple and powerful package for Atom (Github's text editor) that helps the user to write RAML specs.
+A simple package for Atom (Github's text editor) that helps the user to write [RAML](http://raml.org/) specs.
 
 ## Features:
 - Syntaxt Highlight.
