@@ -2,8 +2,8 @@
   "name": "raml",
   "version": "0.0.1",
   "description": "RAML Package for ATOM",
-  "repository": "https://github.com/DOESNOTEXIST",
-  "license": "WHOKNOWS",
+  "repository": "https://github.com/n4ch03/atom-raml",
+  "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
