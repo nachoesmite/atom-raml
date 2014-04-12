@@ -14,7 +14,7 @@
     'prefix': 'delete'
     'body': """delete:
               	description: |
-              		Retrieve resource
+              		Delete resource
               	responses:
               		204:
               			description: |
@@ -34,7 +34,7 @@
     'prefix': 'patch'
     'body': """patch:
               	description: |
-              		Create a new resource
+              		Update a field of a resource
               	body:
               		application/json: !!null
               	responses:
