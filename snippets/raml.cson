@@ -22,8 +22,8 @@
               ${1:}
               """
   'RAML':
-    'prefix': 'RAML'
-    'body': """RAML
+    'prefix': '#%'
+    'body': """#%RAML 0.8
                ---
                title: title
                version: version
@@ -55,10 +55,10 @@
               				Succesfully created a new resource
               			headers:
               				Location:
-              					desription: |
+              					description: |
               						Location of the newly created resource
               					type: string
-              					required: no
+              					required: false
               ${1:}
             """
   'put':
