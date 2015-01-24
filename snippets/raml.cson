@@ -1,7 +1,7 @@
 '.source.raml':
   'get':
     'prefix': 'get'
-    'body': """get:
+    'body': '''get:
               	description: |
               		Retrieve resource
               	responses:
@@ -9,10 +9,10 @@
               			description: |
               				Succesfully retrieved resource
               ${1:}
-            """
+            '''
   'delete':
     'prefix': 'delete'
-    'body': """delete:
+    'body': '''delete:
               	description: |
               		Delete resource
               	responses:
@@ -20,19 +20,19 @@
               			description: |
               				Succesfully deleted resource
               ${1:}
-              """
+              '''
   'RAML':
     'prefix': '#%'
-    'body': """#%RAML 0.8
+    'body': '''#%RAML 0.8
                ---
                title: title
                version: version
                baseUri: https://baseUri/version/
                ${1:}
-            """
+            '''
   'patch':
     'prefix': 'patch'
-    'body': """patch:
+    'body': '''patch:
               	description: |
               		Update a field of a resource
               	body:
@@ -41,10 +41,10 @@
               		204:
               			description: Succesfully updated resource
               ${1:}
-            """
+            '''
   'post':
     'prefix': 'post'
-    'body': """post:
+    'body': '''post:
               	description: |
               		Create a new resource
               	body:
@@ -60,10 +60,10 @@
               					type: string
               					required: false
               ${1:}
-            """
+            '''
   'put':
     'prefix': 'put'
-    'body': """put:
+    'body': '''put:
               	description: |
               		Update an existing resource
               	body:
@@ -73,13 +73,13 @@
               			description: |
               				Succesfully updated the resource
               ${1:}
-            """
+            '''
 
   'documentation':
     'prefix': 'documentation'
-    'body': """documentation:
+    'body': '''documentation:
               	- title: title
               		content: |
               			content
               ${1:}
-            """
+            '''
