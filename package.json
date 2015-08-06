@@ -1,6 +1,6 @@
 {
   "name": "raml",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "RAML Package for ATOM",
   "repository": "https://github.com/n4ch03/atom-raml",
   "license": "MIT",
